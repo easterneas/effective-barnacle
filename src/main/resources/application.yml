@@ -1,0 +1,15 @@
+spring:
+  application: # spring.application
+    name: simpleproduct
+  jpa: # spring.jpa
+    hibernate: # spring.jpa.hibernate
+      ddl-auto: update
+  datasource:
+    url: "jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}"
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+    # hikari:
+  security:
+    user:
+      name: git
+      password: GitJava2024!
