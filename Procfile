@@ -1,1 +1,1 @@
-web: java -jar -Dserver.port=$PORT build/libs/simpleproduct-0.0.1-SNAPSHOT.jar
+web: java -jar -Dserver.port=$PORT /root/.m2/repository/sess15/security/simpleproduct/0.0.1-SNAPSHOT/simpleproduct-0.0.1-SNAPSHOT.jar
